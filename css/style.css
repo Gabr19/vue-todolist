@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+#app{
+    width: 50vw;
+    height: 50vh;
+}
+
+.logo{
+    height: 40%;
+    width: calc(100% / 2) - 50%;
+}
+
+.logo > img{
+    height: 50%;
+    width: 100%;
+    object-fit: contain;
+    
+}
+
+.input{
+    text-align: center;
+}
+
+ul > li {
+    background-color: lightgray;
+    padding: 10px;
+    border-radius: 10px;
+    list-style: none;
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.done{
+    text-decoration: line-through;
+}
+
